@@ -29,6 +29,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-color: #f0f0f0;
 }
 
 h1 {
@@ -66,4 +67,79 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+.results-h2 {
+  color: #844dff;
+}
+
+.main-div {
+  border-bottom-right-radius: 110px!important;
+  width: 480px;
+}
+
+.main-div button{
+  background-color: #844dff;
+}
+
+.main-div button:hover{
+  background-color: black;
+}
+
+input {
+  width: 100px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 1.2em;
+  padding-left: 10px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+input.active {
+  border: 1px solid red;
+}
+
+hr {
+  border: 1px solid gray;
+}
+
+label {
+  font-size: 0.7em;
+  color: gray;
+  font-weight: bold;
+  padding-bottom: 0px;
+}
+
+label.active {
+  color: red;
+}
+
+.div-results {
+  margin-top: -20px;
+}
+
+.div-results h2, .div-results h1 {
+  font-weight: bold;
+  font-size: 4em;
+  font-style: italic;
+  margin: 0;
+  padding: 0;
+  height: 70px;
+}
+
+form p {
+  color: red;
+  font-style: italic;
+  font-size: 0.7em;
+  padding-top: 4px;
+}
+
+form p.inactive{
+  display: none;
+}
+
+form p.active{
+  display: block;
 }
