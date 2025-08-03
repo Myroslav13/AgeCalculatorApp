@@ -88,7 +88,7 @@ function DateInput({isButtonClicked, setButtonClickState, inputsData, setInputsD
             <div className="d-flex align-items-center my-4 middle-div">
                 <hr className="w-100 mb-3"/>
                 <button className="btn rounded-circle p-3" onClick={handleClick}>
-                    <img src="/assets/images/icon-arrow.svg" alt="arrow" width={30}/>
+                    <img src="/AgeCalculatorApp/assets/images/icon-arrow.svg" alt="arrow" width={30}/>
                 </button>
             </div>
 
